@@ -34,24 +34,24 @@ blah, blah, blah, blah
 
 <script>
 
-      var allergy_count = 0;
-      var cold_count = 0; 
+      var covid_count = 0;
+      var flu_count = 0; 
 	
-	function allergyAdd(){
-            allergy_count = allergy_count + 1;
+	function covidAdd(){
+            covid_count = covid_count + 1;
 
         }
 
-        function coldAdd(){
-            cold_count = cold_count + 1;
+        function fluAdd(){
+            flu_count = flu_count + 1;
         }
 
 	function resultscalculator(){
 		
 		var resultText = document.getElementById("results");
-		var coldPercent = (cold_count / (cold_count + allergy_count))*100;
-		var allergyPercent = (allergy_count / (allergy_count + cold_count))*100;
-		resultText.innerHTML = "Probability it is allergies =" + allergyPercent + "%<br> Probability it is a cold =" + coldPercent + "%";
+		var covidPercent = (covid_count / (covid_count + flu_count))*100;
+		var fluPercent = (flu_count / (flu_count + covid_count))*100;
+		resultText.innerHTML = "Probability it is Covid-19 =" + covidPercent + "%<br> Probability it is the flu =" + fluPercent + "%";
 	}
 	
   </script>
@@ -166,7 +166,7 @@ blah, blah, blah, blah
 	</div>
 	
 	<div id="content" class="w3-container">
-		<p>Are you experiencing irritation or itchiness around eyes</p>
+		<p>Are you experiencing irritation or itchiness around eyes?</p>
 		
 		<a href="#five"  onclick="allergyAdd();" class="w3-btn w3-black">Yes</a>
 		
