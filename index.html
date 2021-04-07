@@ -24,7 +24,7 @@ I had several issues with coding footers throughout the app, but as of now there
 -->
 
    <head> 
-        <title>Did you catch Covid-19 or is just the Flu??</title>  
+        <title>Did you catch Covid-19 or is just the Flu??</title>  //Main title of the app 
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="apple-mobile-web-app-capable" content="yes">
       <link rel="stylesheet" href="w3.css">
@@ -86,39 +86,39 @@ I had several issues with coding footers throughout the app, but as of now there
 
 <body>
 <div id="header" class="w3-container w3-flat-alizarin">
-	<h1>Covid-19 or just the Flu?</h1>
+	<h1>Covid-19 or just the Flu?</h1> //Title of the app
 
 </div>
 	
 <div id="content" class="w3-container">
 	<p>Are you rightfully paranoid in the midst of this global pandemic and unsure whether the symptoms you are feeling are over the Flu or if it is the infamous Coronavirus? Answer a few short questions to find out!</p>
 	
-	<a href="#one" class="w3-btn w3-grey w3-round"> Get Started </a> 
+	<a href="#one" class="w3-btn w3-grey w3-round"> Get Started </a> //This is for the first button to go to the next page
 	
-	<img src="https://www.nhcoa.org/wp-content/uploads/2020/08/pic-768x403.jpg"alt="Covid-19 virus vs. Influenza virus">
+	<img src="https://www.nhcoa.org/wp-content/uploads/2020/08/pic-768x403.jpg"alt="Covid-19 virus vs. Influenza virus"> //This is the image url for the picture depicted at the beginning
 	
 	<p>The following code has been developed by students and/or researchers of the Freshman Research Initiative DIY Diagnostics Stream at The University of Texas at 		Austin.  This code is shared for demonstration purposes and should not be considered a product -- it is for entertainment purposes only. Any user of this code 			does so at their own risk. Members of the DIY Stream, FRI, and The University of Texas system are not liable for anything related to this code.</p>
  	
 	<p>THIS CODE SHOULD NOT BE USED TO DIAGNOSE ANY KIND OF MEDICAL CONDITION.</p>
 	
 <div class="page" id="one">
-	<div id="header" class="w3-container w3-flat-alizarin">
-		<h1>Question 1</h1>
+	<div id="header" class="w3-container w3-flat-alizarin"> 
+		<h1>Question 1</h1> //Header for page 1 with color
 	</div>
 	
 	
 	<div id="content" class="w3-container">
-		<p>Do you have shortness of breath or difficulty breathing?</p>
+		<p>Do you have shortness of breath or difficulty breathing?</p> //The first question on page 1
 		
-		<a href="#two"  onclick="covidAdd();" class="w3-btn w3-black">Yes</a>
+		<a href="#two"  onclick="covidAdd();" class="w3-btn w3-black">Yes</a> //This code takes you to question 2 and adds a +1 for Covid upon pressing the button
 				
-		<a href="#two"  onclick="fluAdd();" class="w3-btn w3-black">No</a>
+		<a href="#two"  onclick="fluAdd();" class="w3-btn w3-black">No</a> //This code takes you to question 2 and adds a +1 for Flu upon pressing the button
 		
 	 </div><!-- /content -->
 	
 	<div>	
 	
-<footer class="w3-bottom w3-container w3-flat-alizarin">
+<footer class="w3-bottom w3-container w3-flat-alizarin"> //This code is the footer for page 1 with color
 	<p>Question 1</p>
 </footer>
 	
@@ -126,21 +126,21 @@ I had several issues with coding footers throughout the app, but as of now there
 	
 <div class="page" id="two">
 	<div class="w3-container w3-flat-alizarin">
-		<h1>Question 2</h1>
+		<h1>Question 2</h1> //Header for page 2 with color
 	</div>
 	
 	<div id="content" class="w3-container">
-		<p>Do you have a stuffy or runny nose?</p>
+		<p>Do you have a stuffy or runny nose?</p> //The second question for page 2
 		
-		<a href="#three"  onclick="fluAdd();" class="w3-btn w3-black">Yes</a>
+		<a href="#three"  onclick="fluAdd();" class="w3-btn w3-black">Yes</a> //This code takes you to page 3 ands a +1 to the flu count upon pressing the button
 		
-		<a href="#three"  onclick="covidAdd();" class="w3-btn w3-black">No</a>
+		<a href="#three"  onclick="covidAdd();" class="w3-btn w3-black">No</a> ////This code takes you to page 3 ands a +1 to the covid count upon pressing the button
 		
 	 </div><!-- /content -->	
 
 	<div>	
 	
-<footer class="w3-bottom w3-container w3-flat-alizarin">
+<footer class="w3-bottom w3-container w3-flat-alizarin"> //This code is the footer for page 2 with color
 	<p>Question 2</p>
 </footer>
 	
@@ -148,21 +148,21 @@ I had several issues with coding footers throughout the app, but as of now there
 	
 <div class="page" id="three">
 	<div class="w3-container w3-flat-alizarin">
-		<h1>Question 3</h1>
+		<h1>Question 3</h1> //Header for page 3 with color
 	</div>
 	
 	<div id="content" class="w3-container">
-		<p>Has your ability to taste or smell changed or disappeared?</p>
+		<p>Has your ability to taste or smell changed or disappeared?</p> //The third question for page 3 
 		
-		<a href="#four"  onclick="covidAdd();" class="w3-btn w3-black">Yes</a>
+		<a href="#four"  onclick="covidAdd();" class="w3-btn w3-black">Yes</a> //This code takes you to page 4 ands a +1 to the covid count upon pressing the button
 		
-		<a href="#four"  onclick="fluAdd();" class="w3-btn w3-black">No</a>
+		<a href="#four"  onclick="fluAdd();" class="w3-btn w3-black">No</a> ////This code takes you to page 4 ands a +1 to the flu count upon pressing the button
 		
 	 </div><!-- /content -->	
 	
 	<div>	
 	
-<footer class="w3-bottom w3-container w3-flat-alizarin">
+<footer class="w3-bottom w3-container w3-flat-alizarin"> //This code is the footer for page 3 with color
 	<p>Question 3</p>
 </footer>
 	
@@ -170,41 +170,41 @@ I had several issues with coding footers throughout the app, but as of now there
 	
 <div class="page" id="four">
 	<div class="w3-container w3-flat-alizarin">
-		<h1>Question 4</h1>
+		<h1>Question 4</h1> //Header for page 4 with color
 	</div>
 	
 	<div id="content" class="w3-container">
-		<p>Are you experiencing irritation or itchiness around eyes?</p>
+		<p>Are you experiencing irritation or itchiness around eyes?</p> //The fourth question for page 4
 		
-		<a href="#five"  onclick="fluAdd();" class="w3-btn w3-black">Yes</a>
+		<a href="#five"  onclick="fluAdd();" class="w3-btn w3-black">Yes</a> //This code takes you to page 5 ands a +1 to the flu count upon pressing the button
 		
-		<a href="#five"  onclick="covidAdd();" class="w3-btn w3-black">No</a>
+		<a href="#five"  onclick="covidAdd();" class="w3-btn w3-black">No</a> //This code takes you to page 5 ands a +1 to the flu count upon pressing the button
 		
 	 </div><!-- /content -->	
 	
 	<div>	
 	
-<footer class="w3-bottom w3-container w3-flat-alizarin">
+<footer class="w3-bottom w3-container w3-flat-alizarin"> //This code is the footer for page 4 with color
 	<p>Question 4</p>
 </footer>
 	
 <div class="page" id="five">
 	<div class="w3-container w3-flat-alizarin">
-		<h1>Question 5</h1>
+		<h1>Question 5</h1> //Header for page 5 with color
 	</div>
 	
 	<div id="content" class="w3-container">
-		<p>What is the severity of your symptoms?</p>
+		<p>What is the severity of your symptoms?</p> //The fifth question for page 5
 		
-		<a href="#six"  onclick="fluAdd();" class="w3-btn w3-black">Mild</a>
+		<a href="#six"  onclick="fluAdd();" class="w3-btn w3-black">Mild</a> //This code takes you to page 6 ands a +1 to the flu count upon pressing the button
 		
-		<a href="#six"  onclick="covidAdd();" class="w3-btn w3-black">Severe</a>
+		<a href="#six"  onclick="covidAdd();" class="w3-btn w3-black">Severe</a> //This code takes you to page 6 ands a +1 to the flu count upon pressing the button
 		
 	 </div><!-- /content -->	
 	
 	<div>	
 	
-<footer class="w3-bottom w3-container w3-flat-alizarin">
+<footer class="w3-bottom w3-container w3-flat-alizarin"> //This code is the footer for page 5 with color
 	<p>Question 5</p>
 </footer>
 		
@@ -212,23 +212,23 @@ I had several issues with coding footers throughout the app, but as of now there
 	
 <div class="page" id="six">
 	<div class="w3-container w3-flat-alizarin">
-		<h1>Question 6</h1>
+		<h1>Question 6</h1> //Header for page 6 with color
 	</div>
 	
 	<div id="content" class="w3-container">
-		<p>Were you exposed to a large group of people recently, and if so how long after did symptoms develop?</p>
+		<p>Were you exposed to a large group of people recently, and if so how long after did symptoms develop?</p> //The sixth question for page 6
 		
-		<a href="#resultspage"  onclick="fluAdd();" class="w3-btn w3-black">Yes, within 24 hours</a>
+		<a href="#resultspage"  onclick="fluAdd();" class="w3-btn w3-black">Yes, within 24 hours</a> //This code takes you to page 7 ands a +1 to the flu count upon pressing the button
 		
-		<a href="#resultspage"  onclick="covidAdd();" class="w3-btn w3-black">Yes, within several days</a>
+		<a href="#resultspage"  onclick="covidAdd();" class="w3-btn w3-black">Yes, within several days</a> //This code takes you to page 7 ands a +1 to the flu count upon pressing the button
 		
-		<a href="#resultspage"  onclick="noAdd();" class="w3-btn w3-black">No</a>
+		<a href="#resultspage"  onclick="noAdd();" class="w3-btn w3-black">No</a> //This code takes you to page 7, but does not a +1 to the either count upon pressing the button
 		
 	 </div><!-- /content -->	
 	
 	<div>	
 	
-<footer class="w3-bottom w3-container w3-flat-alizarin">
+<footer class="w3-bottom w3-container w3-flat-alizarin"> //This code is the footer for page 6 with color
 	<p>Question 6</p>
 </footer>
 			
@@ -236,7 +236,7 @@ I had several issues with coding footers throughout the app, but as of now there
 		
 <div class="page" id="resultspage">
 	<div id="header" class="w3-container w3-flat-alizarin">
-		<h1>Flu vs. Covid-19 : Results</h1>
+		<h1>Flu vs. Covid-19 : Results</h1> //Header for the results page, page 7, with color
 		
 		</div>
 	
@@ -244,13 +244,13 @@ I had several issues with coding footers throughout the app, but as of now there
 		
 		<p id="results"></p>
 		
-		<a onclick="resultscalculator();" class="w3-btn w3-grey w3-round"> Results Here </a>
+		<a onclick="resultscalculator();" class="w3-btn w3-grey w3-round"> Results Here </a> //This button runs the function to calculate the probabilities and display results upon pressing it
 		
 		</div><!-- /content -->
 	<div>
 		
 <footer class="w3-bottom w3-container w3-flat-alizarin">
-	<p>Results!</p>
+	<p>Results!</p> //This line of code is the footer for page 7 with color
 </footer>
 	
 	</div>
