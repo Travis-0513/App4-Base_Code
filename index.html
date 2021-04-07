@@ -46,7 +46,7 @@ I had several issues with coding footers throughout the app, but as of now there
             flu_count = flu_count + 1; //This uses the flu variable to add +1 to the count whenever it is activated
         }
 
-	function resultscalculator(){ //This is the actual calculation that uses all of the +1 counts recorded through all of the questions in order to create percentages of the probability symptoms are covid or flu related
+	function resultscalculator(){ //This is the actual calculation that uses all of the +1 counts recorded through all of the questions in order to create percentages of the probability symptoms are covid or flu related-->
 		
 		var resultText = document.getElementById("results");
 		var covidPercent = (covid_count / (covid_count + flu_count))*100;
@@ -54,7 +54,7 @@ I had several issues with coding footers throughout the app, but as of now there
 		resultText.innerHTML = "Probability it is Covid-19 =" + covidPercent + "%<br> Probability it is the Flu =" + fluPercent + "%";
 	}
 	
-//The following lines of code through line 85 inside the <style> section is the page setup for the app, as well as the image dimensions for the picture that is on the first page
+//The following lines of code through line 85 inside the <style> section is the page setup for the app, as well as the image dimensions for the picture that is on the first page-->
 	
   </script>
 
@@ -86,7 +86,7 @@ I had several issues with coding footers throughout the app, but as of now there
 
 <body>
 <div id="header" class="w3-container w3-flat-alizarin">
-	<h1>Covid-19 or just the Flu?</h1> //Title of the app
+	<h1>Covid-19 or just the Flu?</h1> <!--Title of the app-->
 
 </div>
 	
